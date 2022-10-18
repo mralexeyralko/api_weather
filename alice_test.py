@@ -1,7 +1,7 @@
 import requests
 import json
 
-my_headers = {'X-Yandex-API-Key' : '5f76cbaa-b572-4d3e-9041-3324189c9161'}
+my_headers = {'X-Yandex-API-Key' : ''}
 ask = {'lat' : 59.739034382323126, 'lon' : 30.31480367411748, 'lang' : 'ru_RU', 'hours' : False, 'limit' : 1, 'extra' : False,}
 response = requests.get('https://api.weather.yandex.ru/v2/forecast/', headers=my_headers, params = ask)
 
